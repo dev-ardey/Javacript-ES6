@@ -1,0 +1,18 @@
+// Only change code below this line
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+  takeoff() {
+    console.log("the new vegitable is " + this.name);
+  }
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
+
+
+// my const grabs information from the class. 
+const tomato = new Vegetable("tomato");
+tomato.takeoff();
